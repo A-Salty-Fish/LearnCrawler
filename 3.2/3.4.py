@@ -1,8 +1,8 @@
 # coding: utf-8
 import requests
+from bs4 import BeautifulSoup
 import io
 import sys
-from bs4 import BeautifulSoup
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='gb18030')  # 改变标准输出的默认编码
 
